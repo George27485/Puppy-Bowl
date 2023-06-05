@@ -1,14 +1,3 @@
-.Detail-Button button{
-
-        cursor: default; 
-      }
-      
-      #Detail-Button button:hover {
-        cursor: pointer; 
-        color:red;
-      }
-      
-
 
 
 body{
@@ -29,8 +18,9 @@ img {
   }
 
   #puptitle{
-    
+   
     text-align: center;
+    
   }
 
   .Pup-Card{
@@ -53,7 +43,10 @@ img {
   
 
   #player-Details-Container{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   #current-Puppy-Bowl-Participants{
