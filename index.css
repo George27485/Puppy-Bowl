@@ -1,0 +1,70 @@
+.Detail-Button button{
+
+        cursor: default; 
+      }
+      
+      #Detail-Button button:hover {
+        cursor: pointer; 
+        color:red;
+      }
+      
+
+
+
+body{
+    
+    background-image: url(dog.jpg);
+    background-size: cover;
+    font-size: larger;
+    
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  #puptitle{
+    
+    text-align: center;
+  }
+
+  .Pup-Card{
+    border: 4px solid black;
+    margin:2%;
+    padding:1%;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    gap:0;
+    font-size: 40px;
+    background-image: url(card.jpg);
+    background-position: center top 55%;
+    background-repeat:repeat-y;
+    background-size:cover;
+
+    
+  }
+    
+  
+
+  #player-Details-Container{
+    text-align: center;
+  }
+
+  #current-Puppy-Bowl-Participants{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  #Back-Button{
+    font-size: larger;
+    cursor: pointer;
+
+  }
